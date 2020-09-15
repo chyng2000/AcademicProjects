@@ -1,0 +1,1558 @@
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 _C1          NS     296.00000        .          296.00000         .               -Inf   1.89375e+06 _20M06Product_14PressingHydraulicPress_01
+                                            .30000     296.00000    1.76752e+06          +Inf   2.42401e+06 _C99
+
+     2 _C10         BS        .             .             .        102376.42305      -2.70000   1.89384e+06 _20M06Product_22ClinchingClincher_02
+                                            .             .              .               +Inf   1.89384e+06
+
+     3 _C100        BS   5.43909e+06   1.27049e+07          -Inf    5.43909e+06       -.00625   1.85985e+06 _20M06Product_41ClinchingClincher_02
+                                            .         1.8144e+07    4.70041e+06        .00933    1.9446e+06 _20M06Product_66ClinchingClincher_Subcon
+
+     4 _C101        BS        .        2.56608e+08          -Inf   738678.40000       -.00933   1.89384e+06 _20M06Product_66ClinchingClincher_Subcon
+                                            .        2.56608e+08         .               +Inf   1.89384e+06
+
+     5 _C102        BS        .        2.56608e+08          -Inf     1.7232e+06       -.00133   1.89384e+06 _20M06Product_66PressingHydraulicPress_Subcon
+                                            .        2.56608e+08         .               +Inf   1.89384e+06
+
+     6 _C103        BS        .          2.592e+06          -Inf         .            -.34343   1.89384e+06 _20M06Product_17HeatStakingHeatStake_10
+                                            .          2.592e+06         .               +Inf   1.89384e+06
+
+     7 _C104        BS   1.46256e+06   1.12944e+06          -Inf     2.3401e+06        .        1.89384e+06 _20M06Product_57HeatStakingHeatStake_07
+                                            .          2.592e+06    1.11535e+06        .00500   1.90116e+06 _20M06Product_59HeatStakingHeatStake_08
+
+     8 _C105        BS   2.27372e+06  318280.00000          -Inf    2.94406e+06       -.00545   1.88144e+06 _20M06Product_59HeatStakingHeatStake_08
+                                            .          2.592e+06     1.4815e+06        .        1.89384e+06 _20M06Product_57HeatStakingHeatStake_07
+
+     9 _C106        BS        .          2.592e+06          -Inf         .            -.08943   1.89384e+06 _20M06Product_17TestingTester_10
+                                            .          2.592e+06         .               +Inf   1.89384e+06
+
+    10 _C107        BS   1.74935e+06  842654.83333          -Inf    1.99381e+06       -.00385   1.88711e+06 _20M06Product_37TestingTester_06
+                                            .          2.592e+06    1.36003e+06        .00385   1.90057e+06 _20M06Product_57TestingTester_08
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 _C108        BS        .          2.592e+06          -Inf   449207.50000       -.00333   1.89384e+06 _20M06Product_57TestingTester_08
+                                            .          2.592e+06         .               +Inf   1.89384e+06
+
+    12 _C109        BS        .        2.56608e+08          -Inf   241248.00000       -.02857   1.89384e+06 _20M06Product_66TestingTester_Subcon
+                                            .        2.56608e+08         .               +Inf   1.89384e+06
+
+    13 _C11         NS    7035.00000        .         7035.00000         .               -Inf   1.88962e+06 _20M06Product_25PressingHydraulicPress_01
+                                            .60000    7035.00000    1.77426e+06          +Inf   2.95418e+06 _C99
+
+    14 _C110        BS        .        2.56608e+08          -Inf         .            -.05111   1.89384e+06 _20M06Product_41HeatStakingHeatStake_Subcon
+                                            .        2.56608e+08         .               +Inf   1.89384e+06
+
+    15 _C111        BS   1.74435e+06  847652.90000          -Inf    2.78301e+06        .        1.89384e+06 _20M06Product_37HeatStakingHeatStake_06
+                                            .          2.592e+06    1.26736e+06        .12546   2.11269e+06 _20M06Product_70HeatStakingHeatStake_Subcon
+
+    16 _C112        NU     2.592e+06        .               -Inf    2.36634e+06          -Inf   1.89478e+06 _20M06Product_57TestingTester_06
+                                           -.00417     2.592e+06    2.95137e+06        .00417   1.89235e+06 _20M06Product_57TestingTester_07
+
+    17 _C113        BS        .          2.592e+06          -Inf         .            -.05167   1.89384e+06 _20M06Product_85HeatStakingHeatStake_05
+                                            .          2.592e+06         .               +Inf   1.89384e+06
+
+    18 _C114        BS        .          2.592e+06          -Inf         .            -.03000   1.89384e+06 _20M06Product_28TestingTester_05
+                                            .          2.592e+06         .               +Inf   1.89384e+06
+
+    19 _C115        BS  850149.00000   1.74185e+06          -Inf   850149.00000       -.02556   1.87212e+06 _20M06Product_41HeatStakingHeatStake_04
+                                            .          2.592e+06   156340.57651        .        1.89384e+06 _20M06Product_37HeatStakingHeatStake_06
+
+    20 _C116        BS  924075.00000   1.66793e+06          -Inf   924075.00000       -.06333   1.83532e+06 _20M06Product_75TestingTester_04
+                                            .          2.592e+06   667645.45455        .00367   1.89723e+06 _20M06Product_37TestingTester_06
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 _C117        BS        .          2.592e+06          -Inf   536272.00000       -.01364   1.89384e+06 _20M06Product_57HeatStakingHeatStake_09
+                                            .          2.592e+06         .               +Inf   1.89384e+06
+
+    22 _C118        BS        .          2.592e+06          -Inf   306958.45833       -.00732   1.89384e+06 _20M06Product_57TestingTester_09
+                                            .          2.592e+06         .               +Inf   1.89384e+06
+
+    23 _C119        BS    3.6564e+06    4.1196e+06          -Inf     3.6564e+06       -.06000   1.67446e+06 _20M06Product_73ClinchingClincher_01
+                                            .          7.776e+06    2.55948e+06        .01556   1.95072e+06 _20M06Product_59ClinchingClincher_Subcon
+
+    24 _C12         NS    7035.00000        .         7035.00000         .               -Inf   1.87696e+06 _20M06Product_25ClinchingClincher_02
+                                           2.40000    7035.00000   313916.98309          +Inf   2.63036e+06 _C100
+
+    25 _C13         NS    1762.00000        .         1762.00000         .               -Inf    1.8912e+06 _20M06Product_26PressingHydraulicPress_01
+                                           1.50000    1762.00000   443123.25780          +Inf   2.55588e+06 _C99
+
+    26 _C14         NS    1762.00000        .         1762.00000         .               -Inf   1.88909e+06 _20M06Product_26ClinchingClincher_02
+                                           2.70000    1762.00000   319384.85250          +Inf   2.75142e+06 _C100
+
+    27 _C15         BS        .             .             .        441361.25780      -1.50000   1.89384e+06 _20M06Product_27PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+    28 _C16         BS        .             .             .        317622.85250      -2.70000   1.89384e+06 _20M06Product_27ClinchingClincher_02
+                                            .             .              .               +Inf   1.89384e+06
+
+    29 _C17         BS        .             .             .         43200.00000      -3.60000   1.89384e+06 _20M06Product_28HeatStakingHeatStake_05
+                                            .             .              .               +Inf   1.89384e+06
+
+    30 _C18         BS        .             .             .         64800.00000      -1.20000   1.89384e+06 _20M06Product_28TestingTester_05
+                                            .             .              .               +Inf   1.89384e+06
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 _C19         BS        .             .             .         1.76722e+06      -1.20000   1.89384e+06 _20M06Product_28PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+    32 _C2          NS     296.00000        .          296.00000         .               -Inf   1.89331e+06 _20M06Product_14ClinchingClincher_02
+                                           1.80000     296.00000   423793.13667          +Inf   2.65614e+06 _C100
+
+    33 _C20         BS        .             .             .        215337.52712      -2.90000   1.89384e+06 _20M06Product_28ClinchingClincher_02
+                                            .             .              .               +Inf   1.89384e+06
+
+    34 _C21         BS        .             .             .         43200.00000      -3.60000   1.89384e+06 _20M06Product_29HeatStakingHeatStake_05
+                                            .             .              .               +Inf   1.89384e+06
+
+    35 _C22         BS        .             .             .         64800.00000      -2.60000   1.89384e+06 _20M06Product_29TestingTester_05
+                                            .             .              .               +Inf   1.89384e+06
+
+    36 _C23         BS        .             .             .         1.76722e+06      -1.20000   1.89384e+06 _20M06Product_29PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+    37 _C24         BS        .             .             .        215337.52712      -2.90000   1.89384e+06 _20M06Product_29ClinchingClincher_02
+                                            .             .              .               +Inf   1.89384e+06
+
+    38 _C25         NS   36963.00000        .        36963.00000         .               -Inf   1.69424e+06 _20M06Product_37HeatStakingHeatStake_04
+                                           5.40000   36963.00000   112695.65217          +Inf    2.3028e+06 _C115
+
+    39 _C26         NS   36963.00000        .        36963.00000         .               -Inf   1.80883e+06 _20M06Product_37TestingTester_04
+                                           2.30000   36963.00000   103680.00000          +Inf   2.04729e+06 _C116
+
+    40 _C27         NS   36963.00000        .        36963.00000         .               -Inf   1.88275e+06 _20M06Product_37PressingHydraulicPress_01
+                                            .30000   36963.00000    1.80419e+06          +Inf   2.42401e+06 _C99
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 _C28         NS   36963.00000        .        36963.00000         .               -Inf    1.8384e+06 _20M06Product_37ClinchingClincher_02
+                                           1.50000   36963.00000   385999.10165          +Inf    2.4174e+06 _C100
+
+    42 _C29         BS        .             .             .          9676.95000      -4.60000   1.89384e+06 _20M06Product_41HeatStakingHeatStake_04
+                                            .             .              .               +Inf   1.89384e+06
+
+    43 _C3          BS        .             .             .          9946.25000      -5.80000   1.89384e+06 _20M06Product_17HeatStakingHeatStake_08
+                                            .             .              .               +Inf   1.89384e+06
+
+    44 _C30         BS        .             .             .         54686.06557      -2.30000   1.89384e+06 _20M06Product_41TestingTester_04
+                                            .             .              .               +Inf   1.89384e+06
+
+    45 _C31         BS        .             .             .         98069.30611       -.50000   1.89384e+06 _20M06Product_41PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+    46 _C32         BS        .             .             .         52937.14208      -1.50000   1.89384e+06 _20M06Product_41ClinchingClincher_02
+                                            .             .              .               +Inf   1.89384e+06
+
+    47 _C33         NS     141.00000        .          141.00000         .               -Inf   1.89359e+06 _20M06Product_46PressingHydraulicPress_01
+                                           1.80000     141.00000   353301.13618          +Inf   2.52953e+06 _C99
+
+    48 _C34         NS     141.00000        .          141.00000         .               -Inf   1.89352e+06 _20M06Product_46ClinchingClincher_02
+                                           2.30000     141.00000   317763.85250          +Inf   2.62438e+06 _C100
+
+    49 _C35         BS        .             .             .        353160.13618      -1.90000   1.89384e+06 _20M06Product_47PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+    50 _C36         BS        .             .             .        317622.85250      -2.20000   1.89384e+06 _20M06Product_47ClinchingClincher_02
+                                            .             .              .               +Inf   1.89384e+06
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    51 _C37         BS        .             .             .        353160.13618      -1.90000   1.89384e+06 _20M06Product_48PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+    52 _C38         BS        .             .             .        317622.85250      -2.20000   1.89384e+06 _20M06Product_48ClinchingClincher_02
+                                            .             .              .               +Inf   1.89384e+06
+
+    53 _C39         NS   12188.00000        .        12188.00000         .               -Inf   1.80487e+06 _20M06Product_57HeatStakingHeatStake_08
+                                           7.30000   12188.00000    17084.61538          +Inf   1.92959e+06 _C105
+
+    54 _C4          BS        .             .             .        210731.70732      -1.10000   1.89384e+06 _20M06Product_17TestingTester_10
+                                            .             .              .               +Inf   1.89384e+06
+
+    55 _C40         NS   12188.00000        .        12188.00000     4701.20833          -Inf   1.87363e+06 _20M06Product_57TestingTester_07
+                                           2.70000   12188.00000    28392.90064          +Inf    1.9376e+06 _C107
+
+    56 _C41         NS   12188.00000        .        12188.00000         .               -Inf   1.88653e+06 _20M06Product_57PressingHydraulicPress_01
+                                            .60000   12188.00000   174510.86259          +Inf   1.99124e+06 _C99
+
+    57 _C42         NS   12188.00000        .        12188.00000         .               -Inf   1.87678e+06 _20M06Product_57ClinchingClincher_01
+                                           1.40000   12188.00000    80848.00000          +Inf   1.98997e+06 _C119
+
+    58 _C43         NS   12188.00000        .        12188.00000         .               -Inf   1.80487e+06 _20M06Product_58HeatStakingHeatStake_08
+                                           7.30000   12188.00000    17084.61538          +Inf   1.92959e+06 _C105
+
+    59 _C44         NS   12188.00000        .        12188.00000     4701.20833          -Inf   1.87363e+06 _20M06Product_57TestingTester_07
+                                           2.70000   12188.00000    16889.20833          +Inf   1.90654e+06 _20M06Product_57TestingTester_06
+
+    60 _C45         NS   12188.00000        .        12188.00000         .               -Inf   1.88653e+06 _20M06Product_58PressingHydraulicPress_01
+                                            .60000   12188.00000   174510.86259          +Inf   1.99124e+06 _C99
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   7
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    61 _C46         NS   12188.00000        .        12188.00000         .               -Inf   1.87678e+06 _20M06Product_58ClinchingClincher_01
+                                           1.40000   12188.00000    80848.00000          +Inf   1.98997e+06 _C119
+
+    62 _C47         NS   12188.00000        .        12188.00000         .               -Inf   1.82437e+06 _20M06Product_59HeatStakingHeatStake_07
+                                           5.70000   12188.00000    31012.00000          +Inf   2.00114e+06 _C104
+
+    63 _C48         NS   12188.00000        .        12188.00000         .               -Inf    1.8585e+06 _20M06Product_59TestingTester_07
+                                           2.90000   12188.00000    35595.07870          +Inf   1.96172e+06 _C107
+
+    64 _C49         NS   12188.00000        .        12188.00000         .               -Inf   1.88165e+06 _20M06Product_59PressingHydraulicPress_01
+                                           1.00000   12188.00000   116538.41167          +Inf   1.99819e+06 _C99
+
+    65 _C5          BS        .             .             .         6.08711e+06      -1.00000   1.89384e+06 _20M06Product_17PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+    66 _C50         NS   12188.00000        .        12188.00000         .               -Inf   1.87678e+06 _20M06Product_59ClinchingClincher_01
+                                           1.40000   12188.00000    57961.33333          +Inf   1.95793e+06 _C119
+
+    67 _C51         NS   12188.00000        .        12188.00000         .               -Inf   1.82437e+06 _20M06Product_60HeatStakingHeatStake_07
+                                           5.70000   12188.00000    31012.00000          +Inf   2.00114e+06 _C104
+
+    68 _C52         NS   12188.00000        .        12188.00000         .               -Inf    1.8585e+06 _20M06Product_60TestingTester_07
+                                           2.90000   12188.00000    35595.07870          +Inf   1.96172e+06 _C107
+
+    69 _C53         NS   12188.00000        .        12188.00000         .               -Inf   1.88165e+06 _20M06Product_60PressingHydraulicPress_01
+                                           1.00000   12188.00000   116538.41167          +Inf   1.99819e+06 _C99
+
+    70 _C54         NS   12188.00000        .        12188.00000         .               -Inf   1.87678e+06 _20M06Product_60ClinchingClincher_01
+                                           1.40000   12188.00000    57961.33333          +Inf   1.95793e+06 _C119
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   8
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    71 _C55         NS    5744.00000        .         5744.00000         .               -Inf   1.85363e+06 _20M06Product_66HeatStakingHeatStake_08
+                                           7.00000    5744.00000    11048.66667          +Inf   1.93098e+06 _C105
+
+    72 _C56         NS    5744.00000        .         5744.00000         .               -Inf   1.88695e+06 _20M06Product_66TestingTester_07
+                                           1.20000    5744.00000    25807.21032          +Inf   1.91792e+06 _C107
+
+    73 _C57         NS    5744.00000        .         5744.00000         .               -Inf   1.89154e+06 _20M06Product_66PressingHydraulicPress_01
+                                            .40000    5744.00000   151834.57633          +Inf   1.95228e+06 _C99
+
+    74 _C58         NS    5744.00000        .         5744.00000         .               -Inf   1.88695e+06 _20M06Product_66ClinchingClincher_02
+                                           1.20000    5744.00000   104538.04432          +Inf    2.0124e+06 _C100
+
+    75 _C59         NS    5744.00000        .         5744.00000         .               -Inf   1.85363e+06 _20M06Product_67HeatStakingHeatStake_08
+                                           7.00000    5744.00000    11048.66667          +Inf   1.93098e+06 _C105
+
+    76 _C6          BS        .             .             .        625857.83744      -2.30000   1.89384e+06 _20M06Product_17ClinchingClincher_02
+                                            .             .              .               +Inf   1.89384e+06
+
+    77 _C60         NS    5744.00000        .         5744.00000         .               -Inf   1.88695e+06 _20M06Product_67TestingTester_07
+                                           1.20000    5744.00000    25807.21032          +Inf   1.91792e+06 _C107
+
+    78 _C61         NS    5744.00000        .         5744.00000         .               -Inf   1.89154e+06 _20M06Product_67PressingHydraulicPress_01
+                                            .40000    5744.00000   151834.57633          +Inf   1.95228e+06 _C99
+
+    79 _C62         NS    5744.00000        .         5744.00000         .               -Inf   1.88695e+06 _20M06Product_67ClinchingClincher_02
+                                           1.20000    5744.00000   104538.04432          +Inf    2.0124e+06 _C100
+
+    80 _C63         NS   63368.00000        .        63368.00000         .               -Inf   1.57067e+06 _20M06Product_69HeatStakingHeatStake_06
+                                           5.10000   63368.00000   105750.64500          +Inf   2.10999e+06 _C111
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   9
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    81 _C64         NS   63368.00000        .        63368.00000    47033.18182          -Inf   1.86294e+06 _20M06Product_57TestingTester_07
+                                           1.89167   63368.00000    73625.18182          +Inf   1.91325e+06 _20M06Product_57TestingTester_06
+
+    82 _C65         NS   63368.00000        .        63368.00000         .               -Inf   1.78612e+06 _20M06Product_69PressingHydraulicPress_01
+                                           1.70000   63368.00000    1.83059e+06          +Inf   4.89812e+06 _C99
+
+    83 _C66         NS   63368.00000        .        63368.00000         .               -Inf   1.74176e+06 _20M06Product_69ClinchingClincher_02
+                                           2.40000   63368.00000   515500.17438          +Inf   2.97896e+06 _C100
+
+    84 _C67         NS   17601.00000        .        17601.00000         .               -Inf     1.834e+06 _20M06Product_70HeatStakingHeatStake_06
+                                           3.40000   17601.00000    48879.70480          +Inf   2.00019e+06 _C111
+
+    85 _C68         NS   17601.00000        .        17601.00000     1266.18182          -Inf   1.87438e+06 _20M06Product_57TestingTester_07
+                                           1.19167   17601.00000    27858.18182          +Inf   1.90607e+06 _20M06Product_57TestingTester_06
+
+    86 _C69         NS   17601.00000        .        17601.00000         .               -Inf   1.85864e+06 _20M06Product_70PressingHydraulicPress_01
+                                           2.00000   17601.00000    1.78483e+06          +Inf   5.42829e+06 _C99
+
+    87 _C7          BS        .             .             .          7063.77417      -4.50000   1.89384e+06 _20M06Product_22HeatStakingHeatStake_06
+                                            .             .              .               +Inf   1.89384e+06
+
+    88 _C70         NS   17601.00000        .        17601.00000         .               -Inf   1.86216e+06 _20M06Product_70ClinchingClincher_02
+                                           1.80000   17601.00000   504379.31801          +Inf   2.77004e+06 _C100
+
+    89 _C71         BS        .             .             .         43546.27500      -5.00000   1.89384e+06 _20M06Product_73HeatStakingHeatStake_04
+                                            .             .              .               +Inf   1.89384e+06
+
+    90 _C72         BS        .             .             .         55597.50000      -2.60000   1.89384e+06 _20M06Product_73TestingTester_04
+                                            .             .              .               +Inf   1.89384e+06
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  10
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    91 _C73         BS        .             .             .        220680.62890      -1.30000   1.89384e+06 _20M06Product_73PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+    92 _C74         BS        .             .             .        102990.00000      -2.40000   1.89384e+06 _20M06Product_73ClinchingClincher_01
+                                            .             .              .               +Inf   1.89384e+06
+
+    93 _C75         BS        .             .             .         43546.27500      -5.00000   1.89384e+06 _20M06Product_74HeatStakingHeatStake_04
+                                            .             .              .               +Inf   1.89384e+06
+
+    94 _C76         BS        .             .             .         55597.50000      -2.60000   1.89384e+06 _20M06Product_74TestingTester_04
+                                            .             .              .               +Inf   1.89384e+06
+
+    95 _C77         BS        .             .             .        220680.62890      -1.30000   1.89384e+06 _20M06Product_74PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+    96 _C78         BS        .             .             .        102990.00000      -2.40000   1.89384e+06 _20M06Product_74ClinchingClincher_01
+                                            .             .              .               +Inf   1.89384e+06
+
+    97 _C79         BS        .             .             .         43200.00000      -3.20000   1.89384e+06 _20M06Product_75HeatStakingHeatStake_09
+                                            .             .              .               +Inf   1.89384e+06
+
+    98 _C8          BS        .             .             .          7521.93333      -3.12500   1.89384e+06 _20M06Product_22TestingTester_06
+                                            .             .              .               +Inf   1.89384e+06
+
+    99 _C80         BS        .             .             .         55597.50000      -1.90000   1.89384e+06 _20M06Product_75TestingTester_04
+                                            .             .              .               +Inf   1.89384e+06
+
+   100 _C81         BS        .             .             .        588284.20000      -1.60000   1.89384e+06 _20M06Product_75PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  11
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   101 _C82         BS        .             .             .        411960.00000      -2.40000   1.89384e+06 _20M06Product_75ClinchingClincher_01
+                                            .             .              .               +Inf   1.89384e+06
+
+   102 _C83         BS        .             .             .         43200.00000      -3.20000   1.89384e+06 _20M06Product_76HeatStakingHeatStake_09
+                                            .             .              .               +Inf   1.89384e+06
+
+   103 _C84         BS        .             .             .         55597.50000      -1.90000   1.89384e+06 _20M06Product_76TestingTester_04
+                                            .             .              .               +Inf   1.89384e+06
+
+   104 _C85         BS        .             .             .        588284.20000      -1.60000   1.89384e+06 _20M06Product_76PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+   105 _C86         BS        .             .             .        411960.00000      -2.40000   1.89384e+06 _20M06Product_76ClinchingClincher_01
+                                            .             .              .               +Inf   1.89384e+06
+
+   106 _C87         BS        .             .             .        881834.46479      -1.80000   1.89384e+06 _20M06Product_77PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+   107 _C88         BS        .             .             .        423497.13667      -2.20000   1.89384e+06 _20M06Product_77ClinchingClincher_02
+                                            .             .              .               +Inf   1.89384e+06
+
+   108 _C89         BS        .             .             .        881834.46479      -1.80000   1.89384e+06 _20M06Product_79PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+   109 _C9          BS        .             .             .        117688.43421      -1.50000   1.89384e+06 _20M06Product_22PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+   110 _C90         BS        .             .             .        423497.13667      -2.20000   1.89384e+06 _20M06Product_79ClinchingClincher_02
+                                            .             .              .               +Inf   1.89384e+06
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  12
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   111 _C91         BS        .             .             .         43200.00000      -3.10000   1.89384e+06 _20M06Product_85HeatStakingHeatStake_05
+                                            .             .              .               +Inf   1.89384e+06
+
+   112 _C92         BS        .             .             .         64800.00000      -2.70000   1.89384e+06 _20M06Product_85TestingTester_05
+                                            .             .              .               +Inf   1.89384e+06
+
+   113 _C93         BS        .             .             .         1.76722e+06      -1.10000   1.89384e+06 _20M06Product_85PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+   114 _C94         BS        .             .             .        215337.52712      -2.20000   1.89384e+06 _20M06Product_85ClinchingClincher_02
+                                            .             .              .               +Inf   1.89384e+06
+
+   115 _C95         BS        .             .             .         43200.00000      -3.10000   1.89384e+06 _20M06Product_86HeatStakingHeatStake_05
+                                            .             .              .               +Inf   1.89384e+06
+
+   116 _C96         BS        .             .             .         64800.00000      -2.70000   1.89384e+06 _20M06Product_86TestingTester_05
+                                            .             .              .               +Inf   1.89384e+06
+
+   117 _C97         BS        .             .             .         1.76722e+06      -1.10000   1.89384e+06 _20M06Product_86PressingHydraulicPress_01
+                                            .             .              .               +Inf   1.89384e+06
+
+   118 _C98         BS        .             .             .        215337.52712      -2.20000   1.89384e+06 _20M06Product_86ClinchingClincher_02
+                                            .             .              .               +Inf   1.89384e+06
+
+   119 _C99         BS   2.35648e+07   4.38272e+07          -Inf    2.35648e+07       -.00112   1.86748e+06 _20M06Product_41PressingHydraulicPress_01
+                                            .         6.7392e+07    2.18416e+07        .00133   1.92526e+06 _20M06Product_66PressingHydraulicPress_Subcon
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  13
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 _20M06Product_14ClinchingClincher_02
+                    BS     296.00000       1.80000        .           296.00000          -Inf          -Inf
+                                            .               +Inf    -8.5533e+06       3.60000   1.89438e+06 _20M06Product_14ClinchingClincher_Subcon
+
+     2 _20M06Product_14ClinchingClincher_Subcon
+                    NL        .            3.60000        .       -423497.13667       1.80000   1.13155e+06 _C100
+                                           1.80000          +Inf      296.00000          +Inf   1.89438e+06 _20M06Product_14ClinchingClincher_02
+
+     3 _20M06Product_14PressingHydraulicPress_01
+                    BS     296.00000        .30000        .           296.00000          -Inf          -Inf
+                                            .               +Inf   -1.03468e+07        .60000   1.89393e+06 _20M06Product_14PressingHydraulicPress_Subcon
+
+     4 _20M06Product_14PressingHydraulicPress_Subcon
+                    NL        .             .60000        .        -1.76722e+06        .30000   1.36368e+06 _C99
+                                            .30000          +Inf      296.00000          +Inf   1.89393e+06 _20M06Product_14PressingHydraulicPress_01
+
+     5 _20M06Product_17ClinchingClincher_02
+                    NL        .            2.30000        .              .             .        1.89384e+06 _C6
+                                           2.30000          +Inf         .               +Inf   1.89384e+06 _C6
+
+     6 _20M06Product_17ClinchingClincher_Subcon
+                    NL        .            4.60000        .              .             .        1.89384e+06 _C6
+                                           4.60000          +Inf         .               +Inf   1.89384e+06 _C6
+
+     7 _20M06Product_17HeatStakingHeatStake_07
+                    NL        .            6.50000        .              .             .        1.89384e+06 _C3
+                                           6.50000          +Inf         .               +Inf   1.89384e+06 _C3
+
+     8 _20M06Product_17HeatStakingHeatStake_08
+                    NL        .            5.80000        .              .             .        1.89384e+06 _C3
+                                           5.80000          +Inf         .               +Inf   1.89384e+06 _C3
+
+     9 _20M06Product_17HeatStakingHeatStake_10
+                    NL        .            6.80000        .              .             .        1.89384e+06 _C3
+                                           6.80000          +Inf         .               +Inf   1.89384e+06 _C3
+
+    10 _20M06Product_17HeatStakingHeatStake_Subcon
+                    NL        .           11.60000        .              .             .        1.89384e+06 _C3
+                                          11.60000          +Inf         .               +Inf   1.89384e+06 _C3
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  14
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 _20M06Product_17PressingHydraulicPress_01
+                    NL        .            1.00000        .              .             .        1.89384e+06 _C5
+                                           1.00000          +Inf         .               +Inf   1.89384e+06 _C5
+
+    12 _20M06Product_17PressingHydraulicPress_Subcon
+                    NL        .            2.00000        .              .             .        1.89384e+06 _C5
+                                           2.00000          +Inf         .               +Inf   1.89384e+06 _C5
+
+    13 _20M06Product_17TestingTester_07
+                    NL        .            3.00000        .              .             .        1.89384e+06 _C4
+                                           3.00000          +Inf         .               +Inf   1.89384e+06 _C4
+
+    14 _20M06Product_17TestingTester_08
+                    NL        .            2.00000        .              .             .        1.89384e+06 _C4
+                                           2.00000          +Inf         .               +Inf   1.89384e+06 _C4
+
+    15 _20M06Product_17TestingTester_10
+                    NL        .            1.10000        .              .             .        1.89384e+06 _C4
+                                           1.10000          +Inf         .               +Inf   1.89384e+06 _C4
+
+    16 _20M06Product_17TestingTester_Subcon
+                    NL        .            2.20000        .              .             .        1.89384e+06 _C4
+                                           2.20000          +Inf         .               +Inf   1.89384e+06 _C4
+
+    17 _20M06Product_22ClinchingClincher_02
+                    NL        .            2.70000        .              .             .        1.89384e+06 _C10
+                                           2.70000          +Inf         .               +Inf   1.89384e+06 _C10
+
+    18 _20M06Product_22ClinchingClincher_Subcon
+                    NL        .            5.40000        .              .             .        1.89384e+06 _C10
+                                           5.40000          +Inf         .               +Inf   1.89384e+06 _C10
+
+    19 _20M06Product_22HeatStakingHeatStake_06
+                    NL        .            4.50000        .              .             .        1.89384e+06 _C7
+                                           4.50000          +Inf         .               +Inf   1.89384e+06 _C7
+
+    20 _20M06Product_22HeatStakingHeatStake_Subcon
+                    NL        .            9.00000        .              .             .        1.89384e+06 _C7
+                                           9.00000          +Inf         .               +Inf   1.89384e+06 _C7
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  15
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 _20M06Product_22PressingHydraulicPress_01
+                    NL        .            1.50000        .              .             .        1.89384e+06 _C9
+                                           1.50000          +Inf         .               +Inf   1.89384e+06 _C9
+
+    22 _20M06Product_22PressingHydraulicPress_Subcon
+                    NL        .            3.00000        .              .             .        1.89384e+06 _C9
+                                           3.00000          +Inf         .               +Inf   1.89384e+06 _C9
+
+    23 _20M06Product_22TestingTester_06
+                    NL        .            3.00000        .              .            -.12500   1.89384e+06 _C8
+                                           3.12500          +Inf         .               +Inf   1.89384e+06 _C8
+
+    24 _20M06Product_22TestingTester_Subcon
+                    NL        .            6.00000        .              .             .        1.89384e+06 _C8
+                                           6.00000          +Inf         .               +Inf   1.89384e+06 _C8
+
+    25 _20M06Product_25ClinchingClincher_02
+                    BS    7035.00000       2.40000        .          7035.00000          -Inf          -Inf
+                                            .               +Inf   -6.19123e+06       4.80000   1.91073e+06 _20M06Product_25ClinchingClincher_Subcon
+
+    26 _20M06Product_25ClinchingClincher_Subcon
+                    NL        .            4.80000        .       -306881.98309       2.40000   1.15733e+06 _C100
+                                           2.40000          +Inf     7035.00000          +Inf   1.91073e+06 _20M06Product_25ClinchingClincher_02
+
+    27 _20M06Product_25PressingHydraulicPress_01
+                    BS    7035.00000        .60000        .          7035.00000          -Inf          -Inf
+                                            .               +Inf   -1.03401e+07       1.20000   1.89806e+06 _20M06Product_25PressingHydraulicPress_Subcon
+
+    28 _20M06Product_25PressingHydraulicPress_Subcon
+                    NL        .            1.20000        .        -1.76722e+06        .60000  833507.63011 _C99
+                                            .60000          +Inf     7035.00000          +Inf   1.89806e+06 _20M06Product_25PressingHydraulicPress_01
+
+    29 _20M06Product_26ClinchingClincher_02
+                    BS    1762.00000       2.70000        .          1762.00000          -Inf          -Inf
+                                            .               +Inf   -6.41344e+06       5.40000    1.8986e+06 _20M06Product_26ClinchingClincher_Subcon
+
+    30 _20M06Product_26ClinchingClincher_Subcon
+                    NL        .            5.40000        .       -317622.85250       2.70000   1.03626e+06 _C100
+                                           2.70000          +Inf     1762.00000          +Inf    1.8986e+06 _20M06Product_26ClinchingClincher_02
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  16
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 _20M06Product_26PressingHydraulicPress_01
+                    BS    1762.00000       1.50000        .          1762.00000          -Inf          -Inf
+                                            .               +Inf   -2.58241e+06       3.00000   1.89649e+06 _20M06Product_26PressingHydraulicPress_Subcon
+
+    32 _20M06Product_26PressingHydraulicPress_Subcon
+                    NL        .            3.00000        .       -441361.25780       1.50000    1.2318e+06 _C99
+                                           1.50000          +Inf     1762.00000          +Inf   1.89649e+06 _20M06Product_26PressingHydraulicPress_01
+
+    33 _20M06Product_27ClinchingClincher_02
+                    NL        .            2.70000        .              .             .        1.89384e+06 _C16
+                                           2.70000          +Inf         .               +Inf   1.89384e+06 _C16
+
+    34 _20M06Product_27ClinchingClincher_Subcon
+                    NL        .            5.40000        .              .             .        1.89384e+06 _C16
+                                           5.40000          +Inf         .               +Inf   1.89384e+06 _C16
+
+    35 _20M06Product_27PressingHydraulicPress_01
+                    NL        .            1.50000        .              .             .        1.89384e+06 _C15
+                                           1.50000          +Inf         .               +Inf   1.89384e+06 _C15
+
+    36 _20M06Product_27PressingHydraulicPress_Subcon
+                    NL        .            3.00000        .              .             .        1.89384e+06 _C15
+                                           3.00000          +Inf         .               +Inf   1.89384e+06 _C15
+
+    37 _20M06Product_28ClinchingClincher_02
+                    NL        .            2.90000        .              .             .        1.89384e+06 _C20
+                                           2.90000          +Inf         .               +Inf   1.89384e+06 _C20
+
+    38 _20M06Product_28ClinchingClincher_Subcon
+                    NL        .            5.80000        .              .             .        1.89384e+06 _C20
+                                           5.80000          +Inf         .               +Inf   1.89384e+06 _C20
+
+    39 _20M06Product_28HeatStakingHeatStake_05
+                    NL        .            3.60000        .              .             .        1.89384e+06 _C17
+                                           3.60000          +Inf         .               +Inf   1.89384e+06 _C17
+
+    40 _20M06Product_28HeatStakingHeatStake_Subcon
+                    NL        .            7.20000        .              .             .        1.89384e+06 _C17
+                                           7.20000          +Inf         .               +Inf   1.89384e+06 _C17
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  17
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 _20M06Product_28PressingHydraulicPress_01
+                    NL        .            1.20000        .              .             .        1.89384e+06 _C19
+                                           1.20000          +Inf         .               +Inf   1.89384e+06 _C19
+
+    42 _20M06Product_28PressingHydraulicPress_Subcon
+                    NL        .            2.40000        .              .             .        1.89384e+06 _C19
+                                           2.40000          +Inf         .               +Inf   1.89384e+06 _C19
+
+    43 _20M06Product_28TestingTester_05
+                    NL        .            1.20000        .              .             .        1.89384e+06 _C18
+                                           1.20000          +Inf         .               +Inf   1.89384e+06 _C18
+
+    44 _20M06Product_28TestingTester_Subcon
+                    NL        .            2.40000        .              .             .        1.89384e+06 _C18
+                                           2.40000          +Inf         .               +Inf   1.89384e+06 _C18
+
+    45 _20M06Product_29ClinchingClincher_02
+                    NL        .            2.90000        .              .             .        1.89384e+06 _C24
+                                           2.90000          +Inf         .               +Inf   1.89384e+06 _C24
+
+    46 _20M06Product_29ClinchingClincher_Subcon
+                    NL        .            5.80000        .              .             .        1.89384e+06 _C24
+                                           5.80000          +Inf         .               +Inf   1.89384e+06 _C24
+
+    47 _20M06Product_29HeatStakingHeatStake_05
+                    NL        .            3.60000        .              .             .        1.89384e+06 _C21
+                                           3.60000          +Inf         .               +Inf   1.89384e+06 _C21
+
+    48 _20M06Product_29HeatStakingHeatStake_Subcon
+                    NL        .            7.20000        .              .             .        1.89384e+06 _C21
+                                           7.20000          +Inf         .               +Inf   1.89384e+06 _C21
+
+    49 _20M06Product_29PressingHydraulicPress_01
+                    NL        .            1.20000        .              .             .        1.89384e+06 _C23
+                                           1.20000          +Inf         .               +Inf   1.89384e+06 _C23
+
+    50 _20M06Product_29PressingHydraulicPress_Subcon
+                    NL        .            2.40000        .              .             .        1.89384e+06 _C23
+                                           2.40000          +Inf         .               +Inf   1.89384e+06 _C23
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  18
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    51 _20M06Product_29TestingTester_05
+                    NL        .            2.60000        .              .             .        1.89384e+06 _C22
+                                           2.60000          +Inf         .               +Inf   1.89384e+06 _C22
+
+    52 _20M06Product_29TestingTester_Subcon
+                    NL        .            5.20000        .              .             .        1.89384e+06 _C22
+                                           5.20000          +Inf         .               +Inf   1.89384e+06 _C22
+
+    53 _20M06Product_37ClinchingClincher_02
+                    BS   36963.00000       1.50000        .         36963.00000          -Inf          -Inf
+                                            .               +Inf   -7.01271e+06       3.00000   1.94929e+06 _20M06Product_37ClinchingClincher_Subcon
+
+    54 _20M06Product_37ClinchingClincher_Subcon
+                    NL        .            3.00000        .       -349036.10165       1.50000   1.37029e+06 _C100
+                                           1.50000          +Inf    36963.00000          +Inf   1.94929e+06 _20M06Product_37ClinchingClincher_02
+
+    55 _20M06Product_37HeatStakingHeatStake_04
+                    BS   36963.00000       5.40000        .         36963.00000          -Inf          -Inf
+                                            .               +Inf     6797.41637       5.40000   1.89384e+06 _20M06Product_37HeatStakingHeatStake_06
+
+    56 _20M06Product_37HeatStakingHeatStake_06
+                    NL        .            5.40000        .        -75732.65217       5.40000   1.89384e+06 _C115
+                                            .               +Inf    30165.58363          +Inf   1.89384e+06 _C111
+
+    57 _20M06Product_37HeatStakingHeatStake_Subcon
+                    NL        .           10.80000        .        -75732.65217       5.40000   1.48489e+06 _C115
+                                           5.40000          +Inf    36963.00000          +Inf   2.09344e+06 _20M06Product_37HeatStakingHeatStake_04
+
+    58 _20M06Product_37PressingHydraulicPress_01
+                    BS   36963.00000        .30000        .         36963.00000          -Inf          -Inf
+                                            .               +Inf   -1.03101e+07        .60000   1.90493e+06 _20M06Product_37PressingHydraulicPress_Subcon
+
+    59 _20M06Product_37PressingHydraulicPress_Subcon
+                    NL        .             .60000        .        -1.76722e+06        .30000   1.36368e+06 _C99
+                                            .30000          +Inf    36963.00000          +Inf   1.90493e+06 _20M06Product_37PressingHydraulicPress_01
+
+    60 _20M06Product_37TestingTester_04
+                    BS   36963.00000       2.30000        .         36963.00000          -Inf          -Inf
+                                            .               +Inf    26705.81818       2.39167   1.89723e+06 _20M06Product_37TestingTester_06
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  19
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    61 _20M06Product_37TestingTester_06
+                    NL        .            2.30000        .        -16334.81818       2.20833   1.89235e+06 _20M06Product_57TestingTester_07
+                                            .09167          +Inf    10257.18182          +Inf   1.89478e+06 _20M06Product_57TestingTester_06
+
+    62 _20M06Product_37TestingTester_Subcon
+                    NL        .            4.60000        .        -66717.00000       2.30000   1.74039e+06 _C116
+                                           2.30000          +Inf    36963.00000          +Inf   1.97886e+06 _20M06Product_37TestingTester_04
+
+    63 _20M06Product_41ClinchingClincher_02
+                    NL        .            1.50000        .              .             .        1.89384e+06 _C32
+                                           1.50000          +Inf         .               +Inf   1.89384e+06 _C32
+
+    64 _20M06Product_41ClinchingClincher_Subcon
+                    NL        .            3.00000        .              .             .        1.89384e+06 _C32
+                                           3.00000          +Inf         .               +Inf   1.89384e+06 _C32
+
+    65 _20M06Product_41HeatStakingHeatStake_04
+                    NL        .            4.60000        .              .             .        1.89384e+06 _C29
+                                           4.60000          +Inf         .               +Inf   1.89384e+06 _C29
+
+    66 _20M06Product_41HeatStakingHeatStake_Subcon
+                    NL        .            9.20000        .              .             .        1.89384e+06 _C29
+                                           9.20000          +Inf         .               +Inf   1.89384e+06 _C29
+
+    67 _20M06Product_41PressingHydraulicPress_01
+                    NL        .             .50000        .              .             .        1.89384e+06 _C31
+                                            .50000          +Inf         .               +Inf   1.89384e+06 _C31
+
+    68 _20M06Product_41PressingHydraulicPress_Subcon
+                    NL        .            1.00000        .              .             .        1.89384e+06 _C31
+                                           1.00000          +Inf         .               +Inf   1.89384e+06 _C31
+
+    69 _20M06Product_41TestingTester_04
+                    NL        .            2.30000        .              .             .        1.89384e+06 _C30
+                                           2.30000          +Inf         .               +Inf   1.89384e+06 _C30
+
+    70 _20M06Product_41TestingTester_Subcon
+                    NL        .            4.60000        .              .             .        1.89384e+06 _C30
+                                           4.60000          +Inf         .               +Inf   1.89384e+06 _C30
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  20
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    71 _20M06Product_46ClinchingClincher_02
+                    BS     141.00000       2.30000        .           141.00000          -Inf          -Inf
+                                            .               +Inf   -6.41506e+06       4.60000   1.89417e+06 _20M06Product_46ClinchingClincher_Subcon
+
+    72 _20M06Product_46ClinchingClincher_Subcon
+                    NL        .            4.60000        .       -317622.85250       2.30000   1.16331e+06 _C100
+                                           2.30000          +Inf      141.00000          +Inf   1.89417e+06 _20M06Product_46ClinchingClincher_02
+
+    73 _20M06Product_46PressingHydraulicPress_01
+                    BS     141.00000       1.80000        .           141.00000          -Inf          -Inf
+                                            .               +Inf   -2.06761e+06       3.60000    1.8941e+06 _20M06Product_46PressingHydraulicPress_Subcon
+
+    74 _20M06Product_46PressingHydraulicPress_Subcon
+                    NL        .            3.60000        .       -353160.13618       1.80000   1.25815e+06 _C99
+                                           1.80000          +Inf      141.00000          +Inf    1.8941e+06 _20M06Product_46PressingHydraulicPress_01
+
+    75 _20M06Product_47ClinchingClincher_02
+                    NL        .            2.20000        .              .             .        1.89384e+06 _C36
+                                           2.20000          +Inf         .               +Inf   1.89384e+06 _C36
+
+    76 _20M06Product_47ClinchingClincher_Subcon
+                    NL        .            4.40000        .              .             .        1.89384e+06 _C36
+                                           4.40000          +Inf         .               +Inf   1.89384e+06 _C36
+
+    77 _20M06Product_47PressingHydraulicPress_01
+                    NL        .            1.90000        .              .             .        1.89384e+06 _C35
+                                           1.90000          +Inf         .               +Inf   1.89384e+06 _C35
+
+    78 _20M06Product_47PressingHydraulicPress_Subcon
+                    NL        .            3.80000        .              .             .        1.89384e+06 _C35
+                                           3.80000          +Inf         .               +Inf   1.89384e+06 _C35
+
+    79 _20M06Product_48ClinchingClincher_02
+                    NL        .            2.20000        .              .             .        1.89384e+06 _C38
+                                           2.20000          +Inf         .               +Inf   1.89384e+06 _C38
+
+    80 _20M06Product_48ClinchingClincher_Subcon
+                    NL        .            4.40000        .              .             .        1.89384e+06 _C38
+                                           4.40000          +Inf         .               +Inf   1.89384e+06 _C38
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  21
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    81 _20M06Product_48PressingHydraulicPress_01
+                    NL        .            1.90000        .              .             .        1.89384e+06 _C37
+                                           1.90000          +Inf         .               +Inf   1.89384e+06 _C37
+
+    82 _20M06Product_48PressingHydraulicPress_Subcon
+                    NL        .            3.80000        .              .             .        1.89384e+06 _C37
+                                           3.80000          +Inf         .               +Inf   1.89384e+06 _C37
+
+    83 _20M06Product_57ClinchingClincher_01
+                    BS   12188.00000       1.40000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf   -4.26461e+06       2.80000   1.91091e+06 _20M06Product_57ClinchingClincher_Subcon
+
+    84 _20M06Product_57ClinchingClincher_Subcon
+                    NL        .            2.80000        .        -68660.00000       1.40000   1.79772e+06 _C119
+                                           1.40000          +Inf    12188.00000          +Inf   1.91091e+06 _20M06Product_57ClinchingClincher_01
+
+    85 _20M06Product_57HeatStakingHeatStake_06
+                    NL        .            7.50000        .         -4896.61538       7.30000   1.89286e+06 _C105
+                                            .20000          +Inf    12188.00000          +Inf   1.89628e+06 _20M06Product_57HeatStakingHeatStake_08
+
+    86 _20M06Product_57HeatStakingHeatStake_07
+                    NL        .            7.30000        .         -4896.61538       7.30000   1.89384e+06 _C105
+                                            .               +Inf    12188.00000          +Inf   1.89384e+06 _20M06Product_57HeatStakingHeatStake_08
+
+    87 _20M06Product_57HeatStakingHeatStake_08
+                    BS   12188.00000       7.30000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf    -3498.66667       7.30000   1.89384e+06 _20M06Product_57HeatStakingHeatStake_07
+
+    88 _20M06Product_57HeatStakingHeatStake_09
+                    NL        .            7.90000        .         -4896.61538       7.30000    1.8909e+06 _C105
+                                            .60000          +Inf    12188.00000          +Inf   1.90116e+06 _20M06Product_57HeatStakingHeatStake_08
+
+    89 _20M06Product_57HeatStakingHeatStake_Subcon
+                    NL        .           14.60000        .         -4896.61538       7.30000    1.8581e+06 _C105
+                                           7.30000          +Inf    12188.00000          +Inf   1.98281e+06 _20M06Product_57HeatStakingHeatStake_08
+
+    90 _20M06Product_57PressingHydraulicPress_01
+                    BS   12188.00000        .60000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf  -938212.00000       1.20000   1.90116e+06 _20M06Product_57PressingHydraulicPress_Subcon
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  22
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    91 _20M06Product_57PressingHydraulicPress_Subcon
+                    NL        .            1.20000        .       -162322.86259        .60000   1.79645e+06 _C99
+                                            .60000          +Inf    12188.00000          +Inf   1.90116e+06 _20M06Product_57PressingHydraulicPress_01
+
+    92 _20M06Product_57TestingTester_06
+                    BS    4701.20833       2.50000        .         12188.00000       2.50000   1.89384e+06 _20M06Product_58TestingTester_07
+                                            .               +Inf   -11503.69231       2.70000   1.89478e+06 _20M06Product_37TestingTester_06
+
+    93 _20M06Product_57TestingTester_07
+                    BS    7486.79167       2.70000        .         12188.00000       2.50000   1.89235e+06 _20M06Product_37TestingTester_06
+                                            .               +Inf    -4701.20833       2.70000   1.89384e+06 _20M06Product_58TestingTester_07
+
+    94 _20M06Product_57TestingTester_08
+                    NL        .            2.90000        .        -16204.90064       2.70000    1.8906e+06 _C107
+                                            .20000          +Inf     7486.79167          +Inf   1.89534e+06 _20M06Product_57TestingTester_07
+
+    95 _20M06Product_57TestingTester_09
+                    NL        .            3.00000        .        -16204.90064       2.70000   1.88898e+06 _C107
+                                            .30000          +Inf     7486.79167          +Inf   1.89609e+06 _20M06Product_57TestingTester_07
+
+    96 _20M06Product_57TestingTester_Subcon
+                    NL        .            5.00000        .        -16204.90064       2.70000   1.85657e+06 _C107
+                                           2.30000          +Inf     7486.79167          +Inf   1.91106e+06 _20M06Product_57TestingTester_07
+
+    97 _20M06Product_58ClinchingClincher_01
+                    BS   12188.00000       1.40000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf   -4.26461e+06       2.80000   1.91091e+06 _20M06Product_58ClinchingClincher_Subcon
+
+    98 _20M06Product_58ClinchingClincher_Subcon
+                    NL        .            2.80000        .        -68660.00000       1.40000   1.79772e+06 _C119
+                                           1.40000          +Inf    12188.00000          +Inf   1.91091e+06 _20M06Product_58ClinchingClincher_01
+
+    99 _20M06Product_58HeatStakingHeatStake_06
+                    NL        .            7.50000        .         -4896.61538       7.30000   1.89286e+06 _C105
+                                            .20000          +Inf    12188.00000          +Inf   1.89628e+06 _20M06Product_58HeatStakingHeatStake_08
+
+   100 _20M06Product_58HeatStakingHeatStake_07
+                    NL        .            7.30000        .         -4896.61538       7.30000   1.89384e+06 _C105
+                                            .               +Inf    12188.00000          +Inf   1.89384e+06 _20M06Product_58HeatStakingHeatStake_08
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  23
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   101 _20M06Product_58HeatStakingHeatStake_08
+                    BS   12188.00000       7.30000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf    -3498.66667       7.30000   1.89384e+06 _20M06Product_58HeatStakingHeatStake_07
+
+   102 _20M06Product_58HeatStakingHeatStake_09
+                    NL        .            7.90000        .         -4896.61538       7.30000    1.8909e+06 _C105
+                                            .60000          +Inf    12188.00000          +Inf   1.90116e+06 _20M06Product_58HeatStakingHeatStake_08
+
+   103 _20M06Product_58HeatStakingHeatStake_Subcon
+                    NL        .           14.60000        .         -4896.61538       7.30000    1.8581e+06 _C105
+                                           7.30000          +Inf    12188.00000          +Inf   1.98281e+06 _20M06Product_58HeatStakingHeatStake_08
+
+   104 _20M06Product_58PressingHydraulicPress_01
+                    BS   12188.00000        .60000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf  -938212.00000       1.20000   1.90116e+06 _20M06Product_58PressingHydraulicPress_Subcon
+
+   105 _20M06Product_58PressingHydraulicPress_Subcon
+                    NL        .            1.20000        .       -162322.86259        .60000   1.79645e+06 _C99
+                                            .60000          +Inf    12188.00000          +Inf   1.90116e+06 _20M06Product_58PressingHydraulicPress_01
+
+   106 _20M06Product_58TestingTester_06
+                    BS   12188.00000       2.50000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf     4701.20833       2.50000   1.89384e+06 _20M06Product_58TestingTester_07
+
+   107 _20M06Product_58TestingTester_07
+                    NL        .            2.70000        .         -4701.20833       2.70000   1.89384e+06 _20M06Product_57TestingTester_06
+                                            .               +Inf     7486.79167          +Inf   1.89384e+06 _20M06Product_57TestingTester_07
+
+   108 _20M06Product_58TestingTester_08
+                    NL        .            2.90000        .         -4701.20833       2.70000    1.8929e+06 _20M06Product_57TestingTester_06
+                                            .20000          +Inf     7486.79167          +Inf   1.89534e+06 _20M06Product_57TestingTester_07
+
+   109 _20M06Product_58TestingTester_09
+                    NL        .            3.00000        .         -4701.20833       2.70000   1.89243e+06 _20M06Product_57TestingTester_06
+                                            .30000          +Inf     7486.79167          +Inf   1.89609e+06 _20M06Product_57TestingTester_07
+
+   110 _20M06Product_58TestingTester_Subcon
+                    NL        .            5.00000        .         -4701.20833       2.70000   1.88303e+06 _20M06Product_57TestingTester_06
+                                           2.30000          +Inf     7486.79167          +Inf   1.91106e+06 _20M06Product_57TestingTester_07
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  24
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   111 _20M06Product_59ClinchingClincher_01
+                    BS   12188.00000       1.40000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf   -2.83901e+06       2.80000   1.91091e+06 _20M06Product_59ClinchingClincher_Subcon
+
+   112 _20M06Product_59ClinchingClincher_Subcon
+                    NL        .            2.80000        .        -45773.33333       1.40000   1.82976e+06 _C119
+                                           1.40000          +Inf    12188.00000          +Inf   1.91091e+06 _20M06Product_59ClinchingClincher_01
+
+   113 _20M06Product_59HeatStakingHeatStake_07
+                    BS   12188.00000       5.70000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf     6401.09091       6.00000    1.8975e+06 _20M06Product_59HeatStakingHeatStake_08
+
+   114 _20M06Product_59HeatStakingHeatStake_08
+                    NL        .            6.00000        .        -18824.00000       5.70000    1.8882e+06 _C104
+                                            .30000          +Inf     5786.90909          +Inf   1.89558e+06 _C105
+
+   115 _20M06Product_59HeatStakingHeatStake_Subcon
+                    NL        .           11.40000        .        -18824.00000       5.70000   1.78655e+06 _C104
+                                           5.70000          +Inf    12188.00000          +Inf   1.96331e+06 _20M06Product_59HeatStakingHeatStake_07
+
+   116 _20M06Product_59PressingHydraulicPress_01
+                    BS   12188.00000       1.00000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf  -598783.42857       2.00000   1.90603e+06 _20M06Product_59PressingHydraulicPress_Subcon
+
+   117 _20M06Product_59PressingHydraulicPress_Subcon
+                    NL        .            2.00000        .       -104350.41167       1.00000   1.78949e+06 _C99
+                                           1.00000          +Inf    12188.00000          +Inf   1.90603e+06 _20M06Product_59PressingHydraulicPress_01
+
+   118 _20M06Product_59TestingTester_07
+                    BS   12188.00000       2.90000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf   -68812.00000       3.50000   1.90116e+06 _20M06Product_59TestingTester_08
+
+   119 _20M06Product_59TestingTester_08
+                    NL        .            3.50000        .        -23407.07870       2.90000    1.8798e+06 _C107
+                                            .60000          +Inf    12188.00000          +Inf   1.90116e+06 _20M06Product_59TestingTester_07
+
+   120 _20M06Product_59TestingTester_Subcon
+                    NL        .            5.80000        .        -23407.07870       2.90000   1.82596e+06 _C107
+                                           2.90000          +Inf    12188.00000          +Inf   1.92919e+06 _20M06Product_59TestingTester_07
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  25
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   121 _20M06Product_60ClinchingClincher_01
+                    BS   12188.00000       1.40000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf   -2.83901e+06       2.80000   1.91091e+06 _20M06Product_60ClinchingClincher_Subcon
+
+   122 _20M06Product_60ClinchingClincher_Subcon
+                    NL        .            2.80000        .        -45773.33333       1.40000   1.82976e+06 _C119
+                                           1.40000          +Inf    12188.00000          +Inf   1.91091e+06 _20M06Product_60ClinchingClincher_01
+
+   123 _20M06Product_60HeatStakingHeatStake_07
+                    BS   12188.00000       5.70000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf     6401.09091       6.00000    1.8975e+06 _20M06Product_60HeatStakingHeatStake_08
+
+   124 _20M06Product_60HeatStakingHeatStake_08
+                    NL        .            6.00000        .        -18824.00000       5.70000    1.8882e+06 _C104
+                                            .30000          +Inf     5786.90909          +Inf   1.89558e+06 _C105
+
+   125 _20M06Product_60HeatStakingHeatStake_Subcon
+                    NL        .           11.40000        .        -18824.00000       5.70000   1.78655e+06 _C104
+                                           5.70000          +Inf    12188.00000          +Inf   1.96331e+06 _20M06Product_60HeatStakingHeatStake_07
+
+   126 _20M06Product_60PressingHydraulicPress_01
+                    BS   12188.00000       1.00000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf  -598783.42857       2.00000   1.90603e+06 _20M06Product_60PressingHydraulicPress_Subcon
+
+   127 _20M06Product_60PressingHydraulicPress_Subcon
+                    NL        .            2.00000        .       -104350.41167       1.00000   1.78949e+06 _C99
+                                           1.00000          +Inf    12188.00000          +Inf   1.90603e+06 _20M06Product_60PressingHydraulicPress_01
+
+   128 _20M06Product_60TestingTester_07
+                    BS   12188.00000       2.90000        .         12188.00000          -Inf          -Inf
+                                            .               +Inf   -68812.00000       3.50000   1.90116e+06 _20M06Product_60TestingTester_08
+
+   129 _20M06Product_60TestingTester_08
+                    NL        .            3.50000        .        -23407.07870       2.90000    1.8798e+06 _C107
+                                            .60000          +Inf    12188.00000          +Inf   1.90116e+06 _20M06Product_60TestingTester_07
+
+   130 _20M06Product_60TestingTester_Subcon
+                    NL        .            5.80000        .        -23407.07870       2.90000   1.82596e+06 _C107
+                                           2.90000          +Inf    12188.00000          +Inf   1.92919e+06 _20M06Product_60TestingTester_07
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  26
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   131 _20M06Product_66ClinchingClincher_02
+                    BS    5744.00000       1.20000        .          5744.00000          -Inf          -Inf
+                                            .               +Inf   -1.98965e+06       2.40000   1.90074e+06 _20M06Product_66ClinchingClincher_Subcon
+
+   132 _20M06Product_66ClinchingClincher_Subcon
+                    NL        .            2.40000        .        -98794.04432       1.20000   1.77529e+06 _C100
+                                           1.20000          +Inf     5744.00000          +Inf   1.90074e+06 _20M06Product_66ClinchingClincher_02
+
+   133 _20M06Product_66HeatStakingHeatStake_07
+                    NL        .            8.00000        .         -5304.66667       7.00000   1.88854e+06 _C105
+                                           1.00000          +Inf     5744.00000          +Inf   1.89959e+06 _20M06Product_66HeatStakingHeatStake_08
+
+   134 _20M06Product_66HeatStakingHeatStake_08
+                    BS    5744.00000       7.00000        .          5744.00000          -Inf          -Inf
+                                            .               +Inf   -11632.00000       8.00000   1.89959e+06 _20M06Product_66HeatStakingHeatStake_07
+
+   135 _20M06Product_66HeatStakingHeatStake_Subcon
+                    NL        .           14.00000        .         -5304.66667       7.00000   1.85671e+06 _C105
+                                           7.00000          +Inf     5744.00000          +Inf   1.93405e+06 _20M06Product_66HeatStakingHeatStake_08
+
+   136 _20M06Product_66PressingHydraulicPress_01
+                    BS    5744.00000        .40000        .          5744.00000          -Inf          -Inf
+                                            .               +Inf  -849616.00000        .80000   1.89614e+06 _20M06Product_66PressingHydraulicPress_Subcon
+
+   137 _20M06Product_66PressingHydraulicPress_Subcon
+                    NL        .             .80000        .       -146090.57633        .40000   1.83541e+06 _C99
+                                            .40000          +Inf     5744.00000          +Inf   1.89614e+06 _20M06Product_66PressingHydraulicPress_01
+
+   138 _20M06Product_66TestingTester_07
+                    BS    5744.00000       1.20000        .          5744.00000          -Inf          -Inf
+                                            .               +Inf   -55970.28571       1.50000   1.89557e+06 _20M06Product_66TestingTester_08
+
+   139 _20M06Product_66TestingTester_08
+                    NL        .            1.50000        .        -20063.21032       1.20000   1.88782e+06 _C107
+                                            .30000          +Inf     5744.00000          +Inf   1.89557e+06 _20M06Product_66TestingTester_07
+
+   140 _20M06Product_66TestingTester_Subcon
+                    NL        .            2.40000        .        -20063.21032       1.20000   1.86977e+06 _C107
+                                           1.20000          +Inf     5744.00000          +Inf   1.90074e+06 _20M06Product_66TestingTester_07
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  27
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   141 _20M06Product_67ClinchingClincher_02
+                    BS    5744.00000       1.20000        .          5744.00000          -Inf          -Inf
+                                            .               +Inf   -1.98965e+06       2.40000   1.90074e+06 _20M06Product_67ClinchingClincher_Subcon
+
+   142 _20M06Product_67ClinchingClincher_Subcon
+                    NL        .            2.40000        .        -98794.04432       1.20000   1.77529e+06 _C100
+                                           1.20000          +Inf     5744.00000          +Inf   1.90074e+06 _20M06Product_67ClinchingClincher_02
+
+   143 _20M06Product_67HeatStakingHeatStake_07
+                    NL        .            8.00000        .         -5304.66667       7.00000   1.88854e+06 _C105
+                                           1.00000          +Inf     5744.00000          +Inf   1.89959e+06 _20M06Product_67HeatStakingHeatStake_08
+
+   144 _20M06Product_67HeatStakingHeatStake_08
+                    BS    5744.00000       7.00000        .          5744.00000          -Inf          -Inf
+                                            .               +Inf   -11632.00000       8.00000   1.89959e+06 _20M06Product_67HeatStakingHeatStake_07
+
+   145 _20M06Product_67HeatStakingHeatStake_Subcon
+                    NL        .           14.00000        .         -5304.66667       7.00000   1.85671e+06 _C105
+                                           7.00000          +Inf     5744.00000          +Inf   1.93405e+06 _20M06Product_67HeatStakingHeatStake_08
+
+   146 _20M06Product_67PressingHydraulicPress_01
+                    BS    5744.00000        .40000        .          5744.00000          -Inf          -Inf
+                                            .               +Inf  -849616.00000        .80000   1.89614e+06 _20M06Product_67PressingHydraulicPress_Subcon
+
+   147 _20M06Product_67PressingHydraulicPress_Subcon
+                    NL        .             .80000        .       -146090.57633        .40000   1.83541e+06 _C99
+                                            .40000          +Inf     5744.00000          +Inf   1.89614e+06 _20M06Product_67PressingHydraulicPress_01
+
+   148 _20M06Product_67TestingTester_07
+                    BS    5744.00000       1.20000        .          5744.00000          -Inf          -Inf
+                                            .               +Inf   -55970.28571       1.50000   1.89557e+06 _20M06Product_67TestingTester_08
+
+   149 _20M06Product_67TestingTester_08
+                    NL        .            1.50000        .        -20063.21032       1.20000   1.88782e+06 _C107
+                                            .30000          +Inf     5744.00000          +Inf   1.89557e+06 _20M06Product_67TestingTester_07
+
+   150 _20M06Product_67TestingTester_Subcon
+                    NL        .            2.40000        .        -20063.21032       1.20000   1.86977e+06 _C107
+                                           1.20000          +Inf     5744.00000          +Inf   1.90074e+06 _20M06Product_67TestingTester_07
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  28
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   151 _20M06Product_69ClinchingClincher_02
+                    BS   63368.00000       2.40000        .         63368.00000          -Inf          -Inf
+                                            .               +Inf   -9.06859e+06       4.80000   2.04593e+06 _20M06Product_69ClinchingClincher_Subcon
+
+   152 _20M06Product_69ClinchingClincher_Subcon
+                    NL        .            4.80000        .       -452132.17438       2.40000  808725.23983 _C100
+                                           2.40000          +Inf    63368.00000          +Inf   2.04593e+06 _20M06Product_69ClinchingClincher_02
+
+   153 _20M06Product_69HeatStakingHeatStake_06
+                    BS   63368.00000       5.10000        .         63368.00000          -Inf          -Inf
+                                            .               +Inf    -1.2767e+07      10.20000   2.21702e+06 _20M06Product_69HeatStakingHeatStake_Subcon
+
+   154 _20M06Product_69HeatStakingHeatStake_Subcon
+                    NL        .           10.20000        .        -42382.64500       5.10000   1.67769e+06 _C111
+                                           5.10000          +Inf    63368.00000          +Inf   2.21702e+06 _20M06Product_69HeatStakingHeatStake_06
+
+   155 _20M06Product_69PressingHydraulicPress_01
+                    BS   63368.00000       1.70000        .         63368.00000          -Inf          -Inf
+                                            .               +Inf   -1.02837e+07       3.40000   2.00157e+06 _20M06Product_69PressingHydraulicPress_Subcon
+
+   156 _20M06Product_69PressingHydraulicPress_Subcon
+                    NL        .            3.40000        .        -1.76722e+06       1.70000  -1.11044e+06 _C99
+                                           1.70000          +Inf    63368.00000          +Inf   2.00157e+06 _20M06Product_69PressingHydraulicPress_01
+
+   157 _20M06Product_69TestingTester_06
+                    BS   63368.00000       1.80000        .         63368.00000          -Inf          -Inf
+                                            .               +Inf    47033.18182       3.50833    2.0021e+06 _20M06Product_69TestingTester_Subcon
+
+   158 _20M06Product_69TestingTester_Subcon
+                    NL        .            3.60000        .        -10257.18182       1.89167   1.87632e+06 _20M06Product_57TestingTester_06
+                                           1.70833          +Inf    16334.81818          +Inf   1.92175e+06 _20M06Product_57TestingTester_07
+
+   159 _20M06Product_70ClinchingClincher_02
+                    BS   17601.00000       1.80000        .         17601.00000          -Inf          -Inf
+                                            .               +Inf   -9.81412e+06       3.60000   1.92552e+06 _20M06Product_70ClinchingClincher_Subcon
+
+   160 _20M06Product_70ClinchingClincher_Subcon
+                    NL        .            3.60000        .       -486778.31801       1.80000   1.01764e+06 _C100
+                                           1.80000          +Inf    17601.00000          +Inf   1.92552e+06 _20M06Product_70ClinchingClincher_02
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  29
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   161 _20M06Product_70HeatStakingHeatStake_06
+                    BS   17601.00000       3.40000        .         17601.00000          -Inf          -Inf
+                                            .               +Inf   -9.45133e+06       6.80000   1.95369e+06 _20M06Product_70HeatStakingHeatStake_Subcon
+
+   162 _20M06Product_70HeatStakingHeatStake_Subcon
+                    NL        .            6.80000        .        -31278.70480       3.40000   1.78749e+06 _C111
+                                           3.40000          +Inf    17601.00000          +Inf   1.95369e+06 _20M06Product_70HeatStakingHeatStake_06
+
+   163 _20M06Product_70PressingHydraulicPress_01
+                    BS   17601.00000       2.00000        .         17601.00000          -Inf          -Inf
+                                            .               +Inf   -1.03295e+07       4.00000   1.92904e+06 _20M06Product_70PressingHydraulicPress_Subcon
+
+   164 _20M06Product_70PressingHydraulicPress_Subcon
+                    NL        .            4.00000        .        -1.76722e+06       2.00000  -1.64061e+06 _C99
+                                           2.00000          +Inf    17601.00000          +Inf   1.92904e+06 _20M06Product_70PressingHydraulicPress_01
+
+   165 _20M06Product_70TestingTester_06
+                    BS   17601.00000       1.10000        .         17601.00000          -Inf          -Inf
+                                            .               +Inf     1266.18182       2.10833   1.91159e+06 _20M06Product_70TestingTester_Subcon
+
+   166 _20M06Product_70TestingTester_Subcon
+                    NL        .            2.20000        .        -10257.18182       1.19167    1.8835e+06 _20M06Product_57TestingTester_06
+                                           1.00833          +Inf    16334.81818          +Inf   1.91031e+06 _20M06Product_57TestingTester_07
+
+   167 _20M06Product_73ClinchingClincher_01
+                    NL        .            2.40000        .              .             .        1.89384e+06 _C74
+                                           2.40000          +Inf         .               +Inf   1.89384e+06 _C74
+
+   168 _20M06Product_73ClinchingClincher_Subcon
+                    NL        .            4.80000        .              .             .        1.89384e+06 _C74
+                                           4.80000          +Inf         .               +Inf   1.89384e+06 _C74
+
+   169 _20M06Product_73HeatStakingHeatStake_04
+                    NL        .            5.00000        .              .             .        1.89384e+06 _C71
+                                           5.00000          +Inf         .               +Inf   1.89384e+06 _C71
+
+   170 _20M06Product_73HeatStakingHeatStake_09
+                    NL        .            6.60000        .              .             .        1.89384e+06 _C71
+                                           6.60000          +Inf         .               +Inf   1.89384e+06 _C71
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  30
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   171 _20M06Product_73HeatStakingHeatStake_Subcon
+                    NL        .           10.00000        .              .             .        1.89384e+06 _C71
+                                          10.00000          +Inf         .               +Inf   1.89384e+06 _C71
+
+   172 _20M06Product_73PressingHydraulicPress_01
+                    NL        .            1.30000        .              .             .        1.89384e+06 _C73
+                                           1.30000          +Inf         .               +Inf   1.89384e+06 _C73
+
+   173 _20M06Product_73PressingHydraulicPress_Subcon
+                    NL        .            2.60000        .              .             .        1.89384e+06 _C73
+                                           2.60000          +Inf         .               +Inf   1.89384e+06 _C73
+
+   174 _20M06Product_73TestingTester_04
+                    NL        .            2.60000        .              .             .        1.89384e+06 _C72
+                                           2.60000          +Inf         .               +Inf   1.89384e+06 _C72
+
+   175 _20M06Product_73TestingTester_09
+                    NL        .            2.60000        .              .             .        1.89384e+06 _C72
+                                           2.60000          +Inf         .               +Inf   1.89384e+06 _C72
+
+   176 _20M06Product_73TestingTester_Subcon
+                    NL        .            5.20000        .              .             .        1.89384e+06 _C72
+                                           5.20000          +Inf         .               +Inf   1.89384e+06 _C72
+
+   177 _20M06Product_74ClinchingClincher_01
+                    NL        .            2.40000        .              .             .        1.89384e+06 _C78
+                                           2.40000          +Inf         .               +Inf   1.89384e+06 _C78
+
+   178 _20M06Product_74ClinchingClincher_Subcon
+                    NL        .            4.80000        .              .             .        1.89384e+06 _C78
+                                           4.80000          +Inf         .               +Inf   1.89384e+06 _C78
+
+   179 _20M06Product_74HeatStakingHeatStake_04
+                    NL        .            5.00000        .              .             .        1.89384e+06 _C75
+                                           5.00000          +Inf         .               +Inf   1.89384e+06 _C75
+
+   180 _20M06Product_74HeatStakingHeatStake_09
+                    NL        .            6.60000        .              .             .        1.89384e+06 _C75
+                                           6.60000          +Inf         .               +Inf   1.89384e+06 _C75
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  31
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   181 _20M06Product_74HeatStakingHeatStake_Subcon
+                    NL        .           10.00000        .              .             .        1.89384e+06 _C75
+                                          10.00000          +Inf         .               +Inf   1.89384e+06 _C75
+
+   182 _20M06Product_74PressingHydraulicPress_01
+                    NL        .            1.30000        .              .             .        1.89384e+06 _C77
+                                           1.30000          +Inf         .               +Inf   1.89384e+06 _C77
+
+   183 _20M06Product_74PressingHydraulicPress_Subcon
+                    NL        .            2.60000        .              .             .        1.89384e+06 _C77
+                                           2.60000          +Inf         .               +Inf   1.89384e+06 _C77
+
+   184 _20M06Product_74TestingTester_04
+                    NL        .            2.60000        .              .             .        1.89384e+06 _C76
+                                           2.60000          +Inf         .               +Inf   1.89384e+06 _C76
+
+   185 _20M06Product_74TestingTester_09
+                    NL        .            2.60000        .              .             .        1.89384e+06 _C76
+                                           2.60000          +Inf         .               +Inf   1.89384e+06 _C76
+
+   186 _20M06Product_74TestingTester_Subcon
+                    NL        .            5.20000        .              .             .        1.89384e+06 _C76
+                                           5.20000          +Inf         .               +Inf   1.89384e+06 _C76
+
+   187 _20M06Product_75ClinchingClincher_01
+                    NL        .            2.40000        .              .             .        1.89384e+06 _C82
+                                           2.40000          +Inf         .               +Inf   1.89384e+06 _C82
+
+   188 _20M06Product_75ClinchingClincher_Subcon
+                    NL        .            4.80000        .              .             .        1.89384e+06 _C82
+                                           4.80000          +Inf         .               +Inf   1.89384e+06 _C82
+
+   189 _20M06Product_75HeatStakingHeatStake_04
+                    NL        .            5.00000        .              .             .        1.89384e+06 _C79
+                                           5.00000          +Inf         .               +Inf   1.89384e+06 _C79
+
+   190 _20M06Product_75HeatStakingHeatStake_09
+                    NL        .            3.20000        .              .             .        1.89384e+06 _C79
+                                           3.20000          +Inf         .               +Inf   1.89384e+06 _C79
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  32
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   191 _20M06Product_75HeatStakingHeatStake_Subcon
+                    NL        .            6.40000        .              .             .        1.89384e+06 _C79
+                                           6.40000          +Inf         .               +Inf   1.89384e+06 _C79
+
+   192 _20M06Product_75PressingHydraulicPress_01
+                    NL        .            1.60000        .              .             .        1.89384e+06 _C81
+                                           1.60000          +Inf         .               +Inf   1.89384e+06 _C81
+
+   193 _20M06Product_75PressingHydraulicPress_Subcon
+                    NL        .            3.20000        .              .             .        1.89384e+06 _C81
+                                           3.20000          +Inf         .               +Inf   1.89384e+06 _C81
+
+   194 _20M06Product_75TestingTester_04
+                    NL        .            1.90000        .              .             .        1.89384e+06 _C80
+                                           1.90000          +Inf         .               +Inf   1.89384e+06 _C80
+
+   195 _20M06Product_75TestingTester_09
+                    NL        .            1.90000        .              .             .        1.89384e+06 _C80
+                                           1.90000          +Inf         .               +Inf   1.89384e+06 _C80
+
+   196 _20M06Product_75TestingTester_Subcon
+                    NL        .            3.80000        .              .             .        1.89384e+06 _C80
+                                           3.80000          +Inf         .               +Inf   1.89384e+06 _C80
+
+   197 _20M06Product_76ClinchingClincher_01
+                    NL        .            2.40000        .              .             .        1.89384e+06 _C86
+                                           2.40000          +Inf         .               +Inf   1.89384e+06 _C86
+
+   198 _20M06Product_76ClinchingClincher_Subcon
+                    NL        .            4.80000        .              .             .        1.89384e+06 _C86
+                                           4.80000          +Inf         .               +Inf   1.89384e+06 _C86
+
+   199 _20M06Product_76HeatStakingHeatStake_04
+                    NL        .            5.00000        .              .             .        1.89384e+06 _C83
+                                           5.00000          +Inf         .               +Inf   1.89384e+06 _C83
+
+   200 _20M06Product_76HeatStakingHeatStake_09
+                    NL        .            3.20000        .              .             .        1.89384e+06 _C83
+                                           3.20000          +Inf         .               +Inf   1.89384e+06 _C83
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  33
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   201 _20M06Product_76HeatStakingHeatStake_Subcon
+                    NL        .            6.40000        .              .             .        1.89384e+06 _C83
+                                           6.40000          +Inf         .               +Inf   1.89384e+06 _C83
+
+   202 _20M06Product_76PressingHydraulicPress_01
+                    NL        .            1.60000        .              .             .        1.89384e+06 _C85
+                                           1.60000          +Inf         .               +Inf   1.89384e+06 _C85
+
+   203 _20M06Product_76PressingHydraulicPress_Subcon
+                    NL        .            3.20000        .              .             .        1.89384e+06 _C85
+                                           3.20000          +Inf         .               +Inf   1.89384e+06 _C85
+
+   204 _20M06Product_76TestingTester_04
+                    NL        .            1.90000        .              .             .        1.89384e+06 _C84
+                                           1.90000          +Inf         .               +Inf   1.89384e+06 _C84
+
+   205 _20M06Product_76TestingTester_09
+                    NL        .            1.90000        .              .             .        1.89384e+06 _C84
+                                           1.90000          +Inf         .               +Inf   1.89384e+06 _C84
+
+   206 _20M06Product_76TestingTester_Subcon
+                    NL        .            3.80000        .              .             .        1.89384e+06 _C84
+                                           3.80000          +Inf         .               +Inf   1.89384e+06 _C84
+
+   207 _20M06Product_77ClinchingClincher_02
+                    NL        .            2.20000        .              .             .        1.89384e+06 _C88
+                                           2.20000          +Inf         .               +Inf   1.89384e+06 _C88
+
+   208 _20M06Product_77ClinchingClincher_Subcon
+                    NL        .            4.40000        .              .             .        1.89384e+06 _C88
+                                           4.40000          +Inf         .               +Inf   1.89384e+06 _C88
+
+   209 _20M06Product_77PressingHydraulicPress_01
+                    NL        .            1.80000        .              .             .        1.89384e+06 _C87
+                                           1.80000          +Inf         .               +Inf   1.89384e+06 _C87
+
+   210 _20M06Product_77PressingHydraulicPress_Subcon
+                    NL        .            3.60000        .              .             .        1.89384e+06 _C87
+                                           3.60000          +Inf         .               +Inf   1.89384e+06 _C87
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  34
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   211 _20M06Product_79ClinchingClincher_02
+                    NL        .            2.20000        .              .             .        1.89384e+06 _C90
+                                           2.20000          +Inf         .               +Inf   1.89384e+06 _C90
+
+   212 _20M06Product_79ClinchingClincher_Subcon
+                    NL        .            4.40000        .              .             .        1.89384e+06 _C90
+                                           4.40000          +Inf         .               +Inf   1.89384e+06 _C90
+
+   213 _20M06Product_79PressingHydraulicPress_01
+                    NL        .            1.80000        .              .             .        1.89384e+06 _C89
+                                           1.80000          +Inf         .               +Inf   1.89384e+06 _C89
+
+   214 _20M06Product_79PressingHydraulicPress_Subcon
+                    NL        .            3.60000        .              .             .        1.89384e+06 _C89
+                                           3.60000          +Inf         .               +Inf   1.89384e+06 _C89
+
+   215 _20M06Product_85ClinchingClincher_02
+                    NL        .            2.20000        .              .             .        1.89384e+06 _C94
+                                           2.20000          +Inf         .               +Inf   1.89384e+06 _C94
+
+   216 _20M06Product_85ClinchingClincher_Subcon
+                    NL        .            4.40000        .              .             .        1.89384e+06 _C94
+                                           4.40000          +Inf         .               +Inf   1.89384e+06 _C94
+
+   217 _20M06Product_85HeatStakingHeatStake_05
+                    NL        .            3.10000        .              .             .        1.89384e+06 _C91
+                                           3.10000          +Inf         .               +Inf   1.89384e+06 _C91
+
+   218 _20M06Product_85HeatStakingHeatStake_Subcon
+                    NL        .            6.20000        .              .             .        1.89384e+06 _C91
+                                           6.20000          +Inf         .               +Inf   1.89384e+06 _C91
+
+   219 _20M06Product_85PressingHydraulicPress_01
+                    NL        .            1.10000        .              .             .        1.89384e+06 _C93
+                                           1.10000          +Inf         .               +Inf   1.89384e+06 _C93
+
+   220 _20M06Product_85PressingHydraulicPress_Subcon
+                    NL        .            2.20000        .              .             .        1.89384e+06 _C93
+                                           2.20000          +Inf         .               +Inf   1.89384e+06 _C93
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  35
+
+Problem:    
+Objective:  Sum_of_cost = 1893842.458 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   221 _20M06Product_85TestingTester_05
+                    NL        .            2.70000        .              .             .        1.89384e+06 _C92
+                                           2.70000          +Inf         .               +Inf   1.89384e+06 _C92
+
+   222 _20M06Product_85TestingTester_Subcon
+                    NL        .            5.40000        .              .             .        1.89384e+06 _C92
+                                           5.40000          +Inf         .               +Inf   1.89384e+06 _C92
+
+   223 _20M06Product_86ClinchingClincher_02
+                    NL        .            2.20000        .              .             .        1.89384e+06 _C98
+                                           2.20000          +Inf         .               +Inf   1.89384e+06 _C98
+
+   224 _20M06Product_86ClinchingClincher_Subcon
+                    NL        .            4.40000        .              .             .        1.89384e+06 _C98
+                                           4.40000          +Inf         .               +Inf   1.89384e+06 _C98
+
+   225 _20M06Product_86HeatStakingHeatStake_05
+                    NL        .            3.10000        .              .             .        1.89384e+06 _C95
+                                           3.10000          +Inf         .               +Inf   1.89384e+06 _C95
+
+   226 _20M06Product_86HeatStakingHeatStake_Subcon
+                    NL        .            6.20000        .              .             .        1.89384e+06 _C95
+                                           6.20000          +Inf         .               +Inf   1.89384e+06 _C95
+
+   227 _20M06Product_86PressingHydraulicPress_01
+                    NL        .            1.10000        .              .             .        1.89384e+06 _C97
+                                           1.10000          +Inf         .               +Inf   1.89384e+06 _C97
+
+   228 _20M06Product_86PressingHydraulicPress_Subcon
+                    NL        .            2.20000        .              .             .        1.89384e+06 _C97
+                                           2.20000          +Inf         .               +Inf   1.89384e+06 _C97
+
+   229 _20M06Product_86TestingTester_05
+                    NL        .            2.70000        .              .             .        1.89384e+06 _C96
+                                           2.70000          +Inf         .               +Inf   1.89384e+06 _C96
+
+   230 _20M06Product_86TestingTester_Subcon
+                    NL        .            5.40000        .              .             .        1.89384e+06 _C96
+                                           5.40000          +Inf         .               +Inf   1.89384e+06 _C96
+
+End of report

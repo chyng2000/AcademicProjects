@@ -1,0 +1,6 @@
+item,product,process,eqp,startMonth,newValue,status
+eqpQty,All,All,HydraulicPress_01,19M07,28,Cancel
+eqpQty,All,All,HeatStake_05,19M06,0.16,Cancel
+eqpQty,All,All,HeatStake_05,19M07,1,Cancel
+eqpQty,All,All,HeatStake_06,19M06,1.71,Cancel
+eqpQty,All,All,HeatStake_06,19M07,1.00,Cancel
